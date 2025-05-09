@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Schedully.Form1" Collapsed="true">
+    <Position X="18.75" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAIYAAKAAAACABACIQAACBIAEJAYAAAQAAggAAAI=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Schedully.Inventory" Collapsed="true">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <Members>
+      <Property Name="UserControlCough" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>CJQMchEAASAAIQAAAICgYCICMIgAMAAAAAkgAYBBEEA=</HashCode>
+      <FileName>Inventory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="UserControlCough" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Schedully.Nurse" Collapsed="true">
+    <Position X="18.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARQIIAMIASAAABAADCCAAQQGACABCBACEIAQwQTZAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Schedully.Doctor" Collapsed="true">
+    <Position X="18.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBQAJFUJASgAAhQKRyCEAQACKAiIIBWCEEmgIwBBAgE=</HashCode>
+      <FileName>Doctor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Schedully.Controls.UserControlAdd">
+    <Position X="20.5" Y="5" Width="1.5" />
+    <Members>
+      <Field Name="Addbtn" Hidden="true" />
+      <Field Name="addres" Hidden="true" />
+      <Field Name="age" Hidden="true" />
+      <Field Name="appointmentDates" Hidden="true" />
+      <Field Name="appointmentTimes" Hidden="true" />
+      <Field Name="apptime" Hidden="true" />
+      <Field Name="Apptype" Hidden="true" />
+      <Field Name="cmd" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="Contact" Hidden="true" />
+      <Field Name="coursecombo" Hidden="true" />
+      <Field Name="covidgroup" Hidden="true" />
+      <Method Name="createbtn_Click" Hidden="true" />
+      <Field Name="da" Hidden="true" />
+      <Field Name="date" Hidden="true" />
+      <Field Name="dgvappoint" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="ds" Hidden="true" />
+      <Field Name="fname" Hidden="true" />
+      <Field Name="Gender" Hidden="true" />
+      <Method Name="groupBox1_Enter" Hidden="true" />
+      <Field Name="indexRow" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label10" Hidden="true" />
+      <Field Name="label11" Hidden="true" />
+      <Field Name="label12" Hidden="true" />
+      <Field Name="label13" Hidden="true" />
+      <Field Name="label14" Hidden="true" />
+      <Field Name="label15" Hidden="true" />
+      <Field Name="label16" Hidden="true" />
+      <Field Name="label17" Hidden="true" />
+      <Field Name="label18" Hidden="true" />
+      <Field Name="label19" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label20" Hidden="true" />
+      <Field Name="label21" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="lname" Hidden="true" />
+      <Field Name="Midinit" Hidden="true" />
+      <Field Name="myConn" Hidden="true" />
+      <Field Name="nocovid" Hidden="true" />
+      <Field Name="Onsite" Hidden="true" />
+      <Field Name="parentaddress" Hidden="true" />
+      <Field Name="parentcontact" Hidden="true" />
+      <Field Name="parentfname" Hidden="true" />
+      <Field Name="parentlname" Hidden="true" />
+      <Field Name="refresh" Hidden="true" />
+      <Method Name="refresh_Click" Hidden="true" />
+      <Field Name="symptoms" Hidden="true" />
+      <Field Name="toolTip1" Hidden="true" />
+      <Method Name="UserControlAdd" Hidden="true" />
+      <Method Name="UserControlAdd_Load" Hidden="true" />
+      <Field Name="Virtual" Hidden="true" />
+      <Field Name="yescovid" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Schedully.Controls.UserControlAdd.Methods">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\UserControlAdd.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Schedully.Controls.UserControlAdd.UserControlAddMethods">
+        <Members>
+          <Field Name="userControl" Hidden="true" />
+          <Method Name="UserControlAddMethods" Hidden="true" />
+        </Members>
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\UserControlAdd.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>/wAwAUAhBKAQRJSCCgCABgASgIAABQhCQIAOQQEAADA=</HashCode>
+      <FileName>Controls\UserControlAdd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Schedully.Controls.UserControlUpdate">
+    <Position X="22.25" Y="4.75" Width="1.5" />
+    <Members>
+      <Field Name="address" Hidden="true" />
+      <Field Name="age" Hidden="true" />
+      <Field Name="apptime" Hidden="true" />
+      <Field Name="Apptype" Hidden="true" />
+      <Field Name="checkbtn" Hidden="true" />
+      <Method Name="checkbtn_Click" Hidden="true" />
+      <Field Name="clientid" Hidden="true" />
+      <Field Name="clientsearch" Hidden="true" />
+      <Field Name="cmd" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="contact" Hidden="true" />
+      <Field Name="coursecombo" Hidden="true" />
+      <Field Name="covidgroup" Hidden="true" />
+      <Field Name="da" Hidden="true" />
+      <Field Name="date" Hidden="true" />
+      <Field Name="dgvupdate" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="ds" Hidden="true" />
+      <Field Name="Fname" Hidden="true" />
+      <Field Name="Gender" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label10" Hidden="true" />
+      <Field Name="label11" Hidden="true" />
+      <Field Name="label12" Hidden="true" />
+      <Field Name="label13" Hidden="true" />
+      <Field Name="label14" Hidden="true" />
+      <Field Name="label15" Hidden="true" />
+      <Field Name="label16" Hidden="true" />
+      <Field Name="label17" Hidden="true" />
+      <Field Name="label18" Hidden="true" />
+      <Field Name="label19" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label20" Hidden="true" />
+      <Field Name="label21" Hidden="true" />
+      <Field Name="label22" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="Lname" Hidden="true" />
+      <Field Name="Mid" Hidden="true" />
+      <Field Name="myConn" Hidden="true" />
+      <Field Name="nocovid" Hidden="true" />
+      <Field Name="Onsite" Hidden="true" />
+      <Field Name="parentaddress" Hidden="true" />
+      <Field Name="parentcontact" Hidden="true" />
+      <Field Name="parentfname" Hidden="true" />
+      <Field Name="parentlname" Hidden="true" />
+      <Field Name="refresh" Hidden="true" />
+      <Method Name="refresh_Click" Hidden="true" />
+      <Field Name="symptoms" Hidden="true" />
+      <Field Name="updatebtn" Hidden="true" />
+      <Method Name="updatebtn_Click" Hidden="true" />
+      <Method Name="UserControlUpdate" Hidden="true" />
+      <Method Name="UserControlUpdate_Load" Hidden="true" />
+      <Field Name="Virtual" Hidden="true" />
+      <Field Name="yescovid" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>/wAkAUAEBCIAQJSCEiCAQBgSAIKABABCEIAOAQEAEDA=</HashCode>
+      <FileName>Controls\UserControlUpdate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Schedully.Controls.UserControlWound" Collapsed="true">
+    <Position X="8" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8QAgAAQQQGQQABTAdACIABMCAIAAAAAAgAACARDABCA=</HashCode>
+      <FileName>Controls\UserControlWound.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Schedully.Controls.UserControlDelete">
+    <Position X="24" Y="5.25" Width="1.5" />
+    <Members>
+      <Field Name="clientname" Hidden="true" />
+      <Field Name="cmd" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="connection" Hidden="true" />
+      <Field Name="da" Hidden="true" />
+      <Field Name="delbtn" Hidden="true" />
+      <Method Name="delbtn_Click" Hidden="true" />
+      <Field Name="dgvdel" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="ds" Hidden="true" />
+      <Field Name="indexRow" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="myConn" Hidden="true" />
+      <Field Name="refresh" Hidden="true" />
+      <Method Name="refresh_Click" Hidden="true" />
+      <Field Name="tooltip" Hidden="true" />
+      <Method Name="UserControlDelete" Hidden="true" />
+      <Method Name="UserControlDelete_Load" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Schedully.Controls.UserControlDelete.Methods">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\UserControlDelete.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Schedully.Controls.UserControlDelete.DatabaseMethods">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\UserControlDelete.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QAAgAMABACAAAJQAAACBBgACAIAAgAAAAAACAAAAACA=</HashCode>
+      <FileName>Controls\UserControlDelete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Schedully.Controls.UserControlCalen">
+    <Position X="24" Y="2.75" Width="1.5" />
+    <Members>
+      <Field Name="_month" Hidden="true" />
+      <Field Name="_year" Hidden="true" />
+      <Field Name="appointmentCounts" Hidden="true" />
+      <Field Name="appointmentDates" Hidden="true" />
+      <Field Name="calendarflow" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="datelbl" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="lblmonth" Hidden="true" />
+      <Field Name="next" Hidden="true" />
+      <Method Name="next_Click" Hidden="true" />
+      <Field Name="prev" Hidden="true" />
+      <Method Name="prev_Click" Hidden="true" />
+      <Field Name="refresh" Hidden="true" />
+      <Method Name="refresh_Click" Hidden="true" />
+      <Field Name="timer1" Hidden="true" />
+      <Method Name="UserControlCalen" Hidden="true" />
+      <Method Name="UserControlCalen_Load" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgQAAEAAASAAAJAAAAKBBAcCAAAAISAAgABAAAIAAQQ=</HashCode>
+      <FileName>Controls\UserControlCalen.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="UserControlDay" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Schedully.Controls.UserControlDay">
+    <Position X="26.25" Y="2.75" Width="1.5" />
+    <Members>
+      <Field Name="_days" Hidden="true" />
+      <Field Name="clientinfo" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="date" Hidden="true" />
+      <Field Name="daycheck" Hidden="true" />
+      <Field Name="daynum" Hidden="true" />
+      <Field Name="daypanel" Hidden="true" />
+      <Method Name="daypanel_Click" Hidden="true" />
+      <Method Name="daypanel_MouseEnter" Hidden="true" />
+      <Method Name="daypanel_MouseHover" Hidden="true" />
+      <Method Name="daypanel_MouseLeave" Hidden="true" />
+      <Method Name="daypanel_Paint" Hidden="true" />
+      <Field Name="daypic" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="fully" Hidden="true" />
+      <Field Name="IDs" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="lblcount" Hidden="true" />
+      <Property Name="names" Hidden="true" />
+      <Field Name="parentCalen" Hidden="true" />
+      <Property Name="type" Hidden="true" />
+      <Method Name="UserControlDay" Hidden="true" />
+      <Method Name="UserControlDay_Load" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AABAABAAIiBAgAQAAACQgAACBAABQEAAAQCBIRAAApA=</HashCode>
+      <FileName>Controls\UserControlDay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Schedully.Controls.UserControlMark">
+    <Position X="22.25" Y="2.75" Width="1.5" />
+    <Members>
+      <Field Name="cmd" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="contextMenuStrip1" Hidden="true" />
+      <Field Name="da" Hidden="true" />
+      <Field Name="dgvmark" Hidden="true" />
+      <Method Name="dgvmark_MouseDown" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="ds" Hidden="true" />
+      <Field Name="indexRow" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="markCompleteToolStripMenuItem" Hidden="true" />
+      <Method Name="markCompleteToolStripMenuItem_Click" Hidden="true" />
+      <Field Name="myConn" Hidden="true" />
+      <Field Name="refresh" Hidden="true" />
+      <Method Name="refresh_Click" Hidden="true" />
+      <Field Name="selectedRowIndex" Hidden="true" />
+      <Method Name="UserControlMark" Hidden="true" />
+      <Method Name="UserControlMark_Load" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIAiAEAQACAAAJQAAACBBAAGAIAAAAAAAAICAAAAiAA=</HashCode>
+      <FileName>Controls\UserControlMark.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Schedully.Controls.UserControlCold" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MgQgAAIAQKAQABTABAKEABESAMAAAAAAgAACARCAACA=</HashCode>
+      <FileName>Controls\UserControlCold.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Schedully.Controls.UserControlCough" Collapsed="true">
+    <Position X="8.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAQKEQABDABACgABACAQAAAAAAgAAACRCCACA=</HashCode>
+      <FileName>Controls\UserControlCough.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Schedully.Controls.UserControlFirstaid" Collapsed="true">
+    <Position X="8" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAACAAQKAQCFDABACAABICAAAEAAAAgAAAARCAAGA=</HashCode>
+      <FileName>Controls\UserControlFirstaid.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Schedully.Controls.UserControlPain" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MoUCAAAAQKAQABDABACAABACAAAAAAAAoAAAgRCAACA=</HashCode>
+      <FileName>Controls\UserControlPain.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Schedully.Controls.UserControlStomach" Collapsed="true">
+    <Position X="8" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OAQAAAABRKAQIDDAJBCEABACQAAAAAAAgAAAARCAACA=</HashCode>
+      <FileName>Controls\UserControlStomach.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Schedully.roundbutton">
+    <Position X="26.25" Y="6.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Schedully.roundbutton.RoundedButton" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>roundbutton.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>roundbutton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Schedully.Controls.UserControlDiag">
+    <Position X="20.5" Y="2.5" Width="1.5" />
+    <Members>
+      <Method Name="Addbtn_Click" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Method Name="UserControlDiag" Hidden="true" />
+      <Method Name="UserControlDiag_Load" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>/wgyJgAA5SG1TJWYKJCB4hgiAJKQAKAGIIGCNgjAAD4=</HashCode>
+      <FileName>Controls\UserControlDiag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Schedully.Controls.IWoundControl">
+    <Position X="11.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAABAQAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\UserControlWound.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Schedully.Controls.IColdControl">
+    <Position X="9.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIAQAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\UserControlCold.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Schedully.Controls.ICoughControl">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIAQAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\UserControlCough.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Schedully.Controls.IfirstControl">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIAQAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\UserControlFirstaid.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Schedully.Controls.IpainControl">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIAQAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\UserControlPain.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Schedully.Controls.IstomControl">
+    <Position X="11.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIAQAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\UserControlStomach.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
